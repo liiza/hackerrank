@@ -16,8 +16,6 @@ for a0 in range(q):
 		for index, balls in enumerate(container):
 			balls_lens[index] += balls
 
-	print(sorted(container_lens))
-	print(sorted(balls_lens))
 	if sorted(container_lens) == sorted(balls_lens):
 		print('Possible')
 	else:
