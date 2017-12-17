@@ -1,5 +1,5 @@
 #!/bin/python3
-# The Grid search
+# https://www.hackerrank.com/challenges/the-grid-search/problem
 
 import sys
 import re

@@ -1,5 +1,5 @@
+# https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem
 import sys
-
 
 q = int(input().strip())
 for a0 in range(q):
