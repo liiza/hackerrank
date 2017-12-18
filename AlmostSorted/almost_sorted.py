@@ -5,6 +5,21 @@ nums = [int(i) for i in input().split(' ')]
 holes = []
 hills = []
 
+"""
+      *
+     **
+  *  **
+  ** **
+  *****
+ ******
+*******
+0234567
+
+hill at 3
+hole at 5
+-> Can be reversed
+"""
+
 for i in range(1, len(nums) - 1):
     if nums[i - 1] > nums[i] < nums[i + 1]:
         holes.append(i)
